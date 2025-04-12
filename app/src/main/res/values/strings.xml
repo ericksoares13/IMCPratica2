@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IMCPratica2</string>
+    <string name="text_name">Nome:</string>
+    <string name="text_name_hint">Fulano de Tal</string>
+    <string name="text_age">Idade:</string>
+    <string name="text_age_hint">20</string>
+    <string name="text_weight">Peso (Kg):</string>
+    <string name="text_weight_hint">76.54</string>
+    <string name="text_height">Altura (m):</string>
+    <string name="text_height_hint">1.8</string>
+    <string name="button_report">Relatório Nutricional</string>
+</resources>
