@@ -1,29 +1,29 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_name"
-        android:layout_marginTop="100dp"
         android:layout_alignStart="@id/line1"
         android:layout_alignEnd="@id/line1"
+        android:layout_marginTop="100dp"
+        android:text="@string/text_name"
         android:textSize="22sp" />
 
     <EditText
         android:id="@+id/nameValue"
         android:layout_width="match_parent"
-        android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"
         android:layout_below="@id/name"
         android:layout_alignStart="@id/line1"
         android:layout_alignEnd="@id/line1"
+        android:layout_centerHorizontal="true"
         android:autofillHints="name"
-        android:inputType="text"
         android:hint="@string/text_name_hint"
+        android:inputType="text"
         tools:ignore="LabelFor" />
 
     <LinearLayout
@@ -31,11 +31,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/nameValue"
-        android:baselineAligned="false"
-        android:orientation="horizontal"
-        android:layout_marginTop="50dp"
         android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp">
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="15dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -55,8 +55,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:autofillHints="age"
-                android:inputType="number"
-                android:hint="@string/text_age_hint" />
+                android:hint="@string/text_age_hint"
+                android:inputType="number" />
         </LinearLayout>
 
         <LinearLayout
@@ -77,8 +77,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:autofillHints="weight"
-                android:inputType="number"
-                android:hint="@string/text_weight_hint" />
+                android:hint="@string/text_weight_hint"
+                android:inputType="numberDecimal" />
         </LinearLayout>
 
         <LinearLayout
@@ -99,16 +99,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:autofillHints="height"
-                android:inputType="number"
-                android:hint="@string/text_height_hint" />
+                android:hint="@string/text_height_hint"
+                android:inputType="numberDecimal" />
         </LinearLayout>
     </LinearLayout>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_below="@id/line1"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="150dp"
-        android:text="@string/button_report"/>
+        android:onClick="generateReport"
+        android:text="@string/text_report"
+        android:textSize="22sp" />
 </RelativeLayout>

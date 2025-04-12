@@ -8,5 +8,8 @@
     <string name="text_weight_hint">76.54</string>
     <string name="text_height">Altura (m):</string>
     <string name="text_height_hint">1.8</string>
-    <string name="button_report">Relatório Nutricional</string>
+    <string name="text_report">Relatório Nutricional</string>
+    <string name="text_imc">IMC (Kg/m²):</string>
+    <string name="text_classification">Classificação:</string>
+    <string name="text_new_calculation">Realizar novo Cálculo</string>
 </resources>
